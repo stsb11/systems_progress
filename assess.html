@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Assessment Levels</title>
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Assessment Levels</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Learning Outcomes</a></li>
+</ul>
+</div>
+</div>
+<div class=ribbon>
+<a href="https://github.com/stsb11/">Fork me on GitHub</a>
+</div>
+
+<div id="outline-container-sec-1" class="outline-2 activity">
+<h2 id="sec-1"><span class="section-number-2">1</span> Learning Outcomes</h2>
+<div class="outline-text-2" id="text-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Level</th>
+<th scope="col" class="left">Research</th>
+<th scope="col" class="left">Circuit Design</th>
+<th scope="col" class="left">CAD</th>
+<th scope="col" class="left">Circuit Manufacture</th>
+<th scope="col" class="left">3D Fabrication</th>
+<th scope="col" class="left">Programming</th>
+<th scope="col" class="left">Test &amp; Evaluate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="left">Yin-Yang</td>
+<td class="left">Select a variety of appropriate sources of information,</td>
+<td class="left">Independently design efficiently routed multi-IC PCBs, using both digital and analogue components.</td>
+<td class="left">Design and, create and refine a self-contained electromechanical system using 2D and 3D CAD where appropriate.</td>
+<td class="left">Independently diagnose and repair complex PCB issues.</td>
+<td class="left">Independently construct complex electromechanical systems, modifying designs in response to problems as they occur and with a high level of finish.</td>
+<td class="left">Create complex PIC programs using advanced components, debugging and working autonomously.</td>
+<td class="left">Use data from testing to further enhance and refine work.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Independently identify sub-systems and materials used when analysing pre-existing products,</td>
+<td class="left">Test circuit designs both in software and on breadboards,</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Make and use jigs or formers where appropriate to facilitate high-quality products</td>
+<td class="left">Use text-based PIC programming language for all programs.</td>
+<td class="left">Draw conclusions from client feedback to further develop work.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Interview/Question target audience to inform design,</td>
+<td class="left">Use a breadboard to troubleshoot and develop any circuit.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Design and implement substantial modifications to enhance the functionality of the product.</td>
+<td class="left">&#xa0;</td>
+<td class="left">Compare finished work to specification and critically evaluate findings.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Produce a detailed profile of the target market for a product,</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Write detailed, critial evaluations and self-evaluations of own performance,</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Produce a comprehensive specification for a product, justifying all points,</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Independently identify and implement areas for improvement based on the above.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Violet</td>
+<td class="left">Independently compare and contrast pre-existing products, identifying their relative strengths and weaknesses.</td>
+<td class="left">Independently design efficient PIC controlled PCBs, using a variety of input and output components.</td>
+<td class="left">Independently design and create a functioning mechanism in CAD.</td>
+<td class="left">Use a variety of tools and techniques to diagnose problems, and suggest solutions.</td>
+<td class="left">Design and implement modifications to a project to further enhance their aesthetic appeal.</td>
+<td class="left">Invent and refine appropriate PIC programs independently.</td>
+<td class="left">Summarise and reflect on the results of testing to suggest improvements where appropriate.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Describe the target audience for a product,</td>
+<td class="left">Reverse engineer a PCB designed by a third party back to a circuit diagram.</td>
+<td class="left">Explain the impact of CAD on modern manufacturing.</td>
+<td class="left">Write and use test programs for PIC circuits.</td>
+<td class="left">Discuss ways sustainability can be built into a product.</td>
+<td class="left">Use a text-based language to write a short PIC program.</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Use organisational charts to track and evaluate performance throughout a project.</td>
+<td class="left">Use breadboards where appropriate to model any given circuit.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Evaluate work, identifying areas of strength, weakness and possible improvement.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Suggest ways in which a project could be mass-produced</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Indigo</td>
+<td class="left">Analyse different pre-existing products, identifying strengths, weaknesses and how they work.</td>
+<td class="left">Design PIC controlled circuits, and produce PCBs to control them.</td>
+<td class="left">Independently design and create a static CAD model (e.g. a housing).</td>
+<td class="left">Produce working boards to a high standard, ensuring wires are correctly dressed and soldering is tidy.</td>
+<td class="left">Independently produce fully working, high quality products.</td>
+<td class="left">Use subroutines in programs where appropriate.</td>
+<td class="left">Write and implement a detailed test plan which covers all aspects of the system.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Create an organisational (e.g. Gantt) chart to plan progress throughout a project.</td>
+<td class="left">Follow a PCB created by a third party, and identify some of the outputs and inputs.</td>
+<td class="left">Modify a pre-existing design to incorporate new mechanisms or linkages.</td>
+<td class="left">Demonstrate the ability to use a multimeter to measure potential difference, resistance and to test for continuity.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Suggest modifications in light of comments from target market feedback</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Select and justify the use of a range of methods of simulating a circuit when developing ideas.</td>
+<td class="left">Use CAD to conduction a build an original model, and conduct a motion study on a mechanism.</td>
+<td class="left">Interpret analogue input data when testing PIC circuits connected to a computer.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Blue</td>
+<td class="left">Plan work during a project, so that the deadline is met.</td>
+<td class="left">Independently design a simple circuit to meet a brief.</td>
+<td class="left">Create multiple connecting parts using a CAD package.</td>
+<td class="left">Confidently and consistently solder components to a high standard.</td>
+<td class="left">Identify problems when making, and suggest possible solutions.</td>
+<td class="left">Independently write PIC programs which handle both digital and analogue data.</td>
+<td class="left">Write and implement a basic test plan, stating expected results.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Use a breadboard to model a circuit containing an IC, with assistance.</td>
+<td class="left">Modify a pre-existing design to change its aesthetic.</td>
+<td class="left">Apply basic diagnostic techniques (e.g. visual inspection) to QA and troubleshoot PCBs.</td>
+<td class="left">Produce challenging, high-quality, working products with very limited teacher assistance.</td>
+<td class="left">Test programs both in simulations and live, adapting code to compensate for any differences as needed.</td>
+<td class="left">Obtain feedback from the target market for a project.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Design stripboard circuits for simple analogue circuits.</td>
+<td class="left">Use 3D modelling to render a project.</td>
+<td class="left">Use built-in device control to test digital PIC circuit I/O.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Green</td>
+<td class="left">Demonstrate organisational skills during a project.</td>
+<td class="left">Modify a PCB to make its layout more efficient.</td>
+<td class="left">Apply CAD techniques to aid in a design brief.</td>
+<td class="left">Solder more challenging components (e.g. ICs) to a PCB, with assistance.</td>
+<td class="left">Produce a working model from parts supplied by a teacher, with limited assistance.</td>
+<td class="left">With assistance, write programs to handle inputs in a PIC circuit</td>
+<td class="left">Write a list of tests that could be performed on a product.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Research a project in a variety of ways (e.g. questionnaire, product analysis, investigation).</td>
+<td class="left">Use a breadboard to model a simple circuit (e.g. LED torch), with assistance.</td>
+<td class="left">Demontrate the use of a 2D and 3D design package within a project.</td>
+<td class="left">Describe the purpose of a multimeter.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Obtain feedback on a project from a peer.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Describe the operation of a given simple circuit, in terms of its components.</td>
+<td class="left">&#xa0;</td>
+<td class="left">Connect a PIC circuit to a computer to test connectivity.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Explain the terms voltage, current and resistance.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Yellow</td>
+<td class="left">Conduct some relevant research on a project, with assistance.</td>
+<td class="left">Design a PCB layout for a simple circuit, with assistance.</td>
+<td class="left">Use a CAD package to draw shapes accurately to specified dimensions.</td>
+<td class="left">Identify and solder simple components (e.g. resistors) to PCBs, with assistance.</td>
+<td class="left">Select appropriate tools and equipment to accomplish tasks, justifying the choice.</td>
+<td class="left">With assistance, write a simple program to manipulate outputs</td>
+<td class="left">Identify areas for improvement in a project, with assistance.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Explain the purpose of software simulations and breadboard simulations of a circuit.</td>
+<td class="left">&#xa0;</td>
+<td class="left">Describe the correct technique for soldering a component to a PCB or to stripboard.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Name three ways of developing a circuit (e.g. breadboard, PCB, software, stripboard)</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Orange</td>
+<td class="left">Outline some of the steps to be undertaken as part of research.</td>
+<td class="left">Draw basic circuit diagrams (e.g. an LED torch) with assistance.</td>
+<td class="left">Use a CAD package to draw geometric shapes.</td>
+<td class="left">Identify basic electronic components by sight.</td>
+<td class="left">Describe the purpose of different tools and machines.</td>
+<td class="left">Identify the main flowchart shapes.</td>
+<td class="left">Identify areas of a piece of work which are good and bad.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Comment on some aspects of an existing product, with assistance.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Test some aspects of a piece of work, with assistance.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="left">Red</td>
+<td class="left">Define key research terms. E.g. Target Market, Product Analysis, Specification.</td>
+<td class="left">Identify several electronic components, with assistance.</td>
+<td class="left">Identify the difference between 2D and 3D CAD packages</td>
+<td class="left">Identify health and safety rules in a workshop,</td>
+<td class="left">Identify several tools and machines in the workshop</td>
+<td class="left">Know that PIC chips use sequences of instructions to manipulate I/O components.</td>
+<td class="left">Identify the purpose of testing a product.</td>
+</tr>
+
+<tr>
+<td class="left">&#xa0;</td>
+<td class="left">Categorise materials as wood, plastic, manmade board, metal and so on.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+<td class="left">Work safely in the workshop, selecting appropriate protective clothing.</td>
+<td class="left">&#xa0;</td>
+<td class="left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="validation"></p>
+</div>
+</body>
+</html>

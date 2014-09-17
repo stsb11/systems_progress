@@ -1,0 +1,120 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Assessment Levels
+#+AUTHOR: Stephen Brown
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* Learning Outcomes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+| <10>       | <30>                           | <30>                           | <30>                           | <30>                           | <30>                           | <30>                           | <30>                           |
+| Level      | Research                       | Circuit Design                 | CAD                            | Circuit Manufacture            | 3D Fabrication                 | Programming                    | Test & Evaluate                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Yin-Yang   | Select a variety of appropriate sources of information, | Independently design efficiently routed multi-IC PCBs, using both digital and analogue components. | Design and, create and refine a self-contained electromechanical system using 2D and 3D CAD where appropriate. | Independently diagnose and repair complex PCB issues. | Independently construct complex electromechanical systems, modifying designs in response to problems as they occur and with a high level of finish. | Create complex PIC programs using advanced components, debugging and working autonomously. | Use data from testing to further enhance and refine work. |
+|            | Independently identify sub-systems and materials used when analysing pre-existing products, | Test circuit designs both in software and on breadboards, |                                |                                | Make and use jigs or formers where appropriate to facilitate high-quality products | Use text-based PIC programming language for all programs. | Draw conclusions from client feedback to further develop work. |
+|            | Interview/Question target audience to inform design, | Use a breadboard to troubleshoot and develop any circuit. |                                |                                | Design and implement substantial modifications to enhance the functionality of the product. |                                | Compare finished work to specification and critically evaluate findings. |
+|            | Produce a detailed profile of the target market for a product, |                                |                                |                                |                                |                                | Write detailed, critial evaluations and self-evaluations of own performance, |
+|            | Produce a comprehensive specification for a product, justifying all points, |                                |                                |                                |                                |                                | Independently identify and implement areas for improvement based on the above. |
+|            |                                |                                |                                |                                |                                |                                |                                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Violet     | Independently compare and contrast pre-existing products, identifying their relative strengths and weaknesses. | Independently design efficient PIC controlled PCBs, using a variety of input and output components. | Independently design and create a functioning mechanism in CAD. | Use a variety of tools and techniques to diagnose problems, and suggest solutions. | Design and implement modifications to a project to further enhance their aesthetic appeal. | Invent and refine appropriate PIC programs independently. | Summarise and reflect on the results of testing to suggest improvements where appropriate. |
+|            | Describe the target audience for a product, | Reverse engineer a PCB designed by a third party back to a circuit diagram. | Explain the impact of CAD on modern manufacturing. | Write and use test programs for PIC circuits. | Discuss ways sustainability can be built into a product. | Use a text-based language to write a short PIC program. |                                |
+|            | Use organisational charts to track and evaluate performance throughout a project. | Use breadboards where appropriate to model any given circuit. |                                |                                |                                |                                | Evaluate work, identifying areas of strength, weakness and possible improvement. |
+|            |                                |                                |                                |                                |                                |                                | Suggest ways in which a project could be mass-produced |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Indigo     | Analyse different pre-existing products, identifying strengths, weaknesses and how they work. | Design PIC controlled circuits, and produce PCBs to control them. | Independently design and create a static CAD model (e.g. a housing). | Produce working boards to a high standard, ensuring wires are correctly dressed and soldering is tidy. | Independently produce fully working, high quality products. | Use subroutines in programs where appropriate. | Write and implement a detailed test plan which covers all aspects of the system. |
+|            | Create an organisational (e.g. Gantt) chart to plan progress throughout a project. | Follow a PCB created by a third party, and identify some of the outputs and inputs. | Modify a pre-existing design to incorporate new mechanisms or linkages. | Demonstrate the ability to use a multimeter to measure potential difference, resistance and to test for continuity. |                                |                                | Suggest modifications in light of comments from target market feedback |
+|            |                                | Select and justify the use of a range of methods of simulating a circuit when developing ideas. | Use CAD to conduction a build an original model, and conduct a motion study on a mechanism. | Interpret analogue input data when testing PIC circuits connected to a computer. |                                |                                |                                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Blue       | Plan work during a project, so that the deadline is met. | Independently design a simple circuit to meet a brief. | Create multiple connecting parts using a CAD package. | Confidently and consistently solder components to a high standard. | Identify problems when making, and suggest possible solutions. | Independently write PIC programs which handle both digital and analogue data. | Write and implement a basic test plan, stating expected results. |
+|            |                                | Use a breadboard to model a circuit containing an IC, with assistance. | Modify a pre-existing design to change its aesthetic. | Apply basic diagnostic techniques (e.g. visual inspection) to QA and troubleshoot PCBs. | Produce challenging, high-quality, working products with very limited teacher assistance. | Test programs both in simulations and live, adapting code to compensate for any differences as needed. | Obtain feedback from the target market for a project. |
+|            |                                | Design stripboard circuits for simple analogue circuits. | Use 3D modelling to render a project. | Use built-in device control to test digital PIC circuit I/O. |                                |                                |                                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Green      | Demonstrate organisational skills during a project. | Modify a PCB to make its layout more efficient. | Apply CAD techniques to aid in a design brief. | Solder more challenging components (e.g. ICs) to a PCB, with assistance. | Produce a working model from parts supplied by a teacher, with limited assistance. | With assistance, write programs to handle inputs in a PIC circuit | Write a list of tests that could be performed on a product. |
+|            | Research a project in a variety of ways (e.g. questionnaire, product analysis, investigation). | Use a breadboard to model a simple circuit (e.g. LED torch), with assistance. | Demontrate the use of a 2D and 3D design package within a project. | Describe the purpose of a multimeter. |                                |                                | Obtain feedback on a project from a peer. |
+|            |                                | Describe the operation of a given simple circuit, in terms of its components. |                                | Connect a PIC circuit to a computer to test connectivity. |                                |                                |                                |
+|            |                                | Explain the terms voltage, current and resistance. |                                |                                |                                |                                |                                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Yellow     | Conduct some relevant research on a project, with assistance. | Design a PCB layout for a simple circuit, with assistance. | Use a CAD package to draw shapes accurately to specified dimensions. | Identify and solder simple components (e.g. resistors) to PCBs, with assistance. | Select appropriate tools and equipment to accomplish tasks, justifying the choice. | With assistance, write a simple program to manipulate outputs | Identify areas for improvement in a project, with assistance. |
+|            |                                | Explain the purpose of software simulations and breadboard simulations of a circuit. |                                | Describe the correct technique for soldering a component to a PCB or to stripboard. |                                |                                |                                |
+|            |                                | Name three ways of developing a circuit (e.g. breadboard, PCB, software, stripboard) |                                |                                |                                |                                |                                |
+|            |                                |                                |                                |                                |                                |                                |                                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Orange     | Outline some of the steps to be undertaken as part of research. | Draw basic circuit diagrams (e.g. an LED torch) with assistance. | Use a CAD package to draw geometric shapes. | Identify basic electronic components by sight. | Describe the purpose of different tools and machines. | Identify the main flowchart shapes. | Identify areas of a piece of work which are good and bad. |
+|            | Comment on some aspects of an existing product, with assistance. |                                |                                |                                |                                |                                | Test some aspects of a piece of work, with assistance. |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
+| Red        | Define key research terms. E.g. Target Market, Product Analysis, Specification. | Identify several electronic components, with assistance. | Identify the difference between 2D and 3D CAD packages | Identify health and safety rules in a workshop, | Identify several tools and machines in the workshop | Know that PIC chips use sequences of instructions to manipulate I/O components. | Identify the purpose of testing a product. |
+|            | Categorise materials as wood, plastic, manmade board, metal and so on. |                                |                                |                                | Work safely in the workshop, selecting appropriate protective clothing. |                                |                                |
+|------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------+--------------------------------|
